@@ -54,11 +54,11 @@ print(valueGreaterThanSecond(listNum))
 #The function should create and return a list whose length is equal to the given size, and whose values are all the given value.
 #Example: length_and_value(4,7) should return [7,7,7,7]
 #Example: length_and_value(6,2) should return [2,2,2,2,2,2]
-def lengthValue(a,b):
+def lengthValue(size,value):
     newNumList = []
-    for x in range(a):
+    for x in range(size):
         print(x)
-        newNumList.append(b)
+        newNumList.append(value)
         
     return newNumList
 print(lengthValue(4,7))
